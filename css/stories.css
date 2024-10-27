@@ -1,0 +1,81 @@
+/* Lists of stories */
+
+.stories-list {
+  margin: 20px 5px;
+}
+
+.stories-list > li {
+  color: gray;
+  font-size: 0.8rem;
+  margin: 10px 0;
+}
+
+#stories-loading-msg {
+  font-weight: bold;
+  font-size: 150%;
+  margin: 20px 30px;
+}
+
+
+/* Individual stories */
+
+.story-link {
+  color: black;
+  font-size: 0.85rem;
+  font-weight: normal;
+  margin: 18px 0;
+}
+
+.story-link:hover {
+  text-decoration: none;
+}
+
+.story-author {
+  margin-left: 2em;
+}
+
+.story-user {
+  display: block;
+}
+
+/* Navbar styling */
+.nav-left {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.nav-divider {
+  margin: 0 8px;
+  color: lightgray;
+}
+
+/* Story details alignment and color */
+.story-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.story-author {
+  color: green;
+}
+
+.story-user {
+  color: orange;
+}
+
+.delete-story-btn {
+  margin-left: auto; /* Align delete button to the right */
+  background: red;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.story-divider {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 10px 0;
+}
